@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "module": "CommonJS",
+    "declaration": true,
+
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "stripInternal": true,
+    "listFiles": true,
+    "rootDir": ".",
+
+    "strict": false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true
+    
+  },
+  "files": ["./example/test.ts"],
+  "exclude": ["node_modules"]
+}
